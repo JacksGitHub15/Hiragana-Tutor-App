@@ -1,0 +1,248 @@
+/*THE HEADER SECTION*/
+header{
+font-family: 'Allan';
+font-size: 50px;
+color: #ff6600;
+text-align: center;
+height: 200px;
+}
+
+/*THE BANNER*/
+.banner {
+	background-image: url('images/altBackgroundBanner.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*WRAPS ALL DIVS*/
+section.chars{
+display: inline-block;
+height: auto;
+width: auto;
+padding-left: 66px;
+border-style: solid;
+border-width: 15px;
+border-color: #2929a3;
+}
+
+/*THE IMAGES*/
+.static {
+	position:absolute;
+	background:white;
+	margin: 20px;
+	float: center;
+	border-style: outset;
+}
+
+/*TURNS IMAGES TRANSPARENT*/
+.static:hover {
+	opacity:0;
+}
+
+/*THE GIFS*/
+.active{
+	margin: 20px;
+	float: center;
+	border-style: outset;
+}
+
+/*GROUPS IMGs AND GIFs*/
+.gallery{
+display: inline-block;
+margin: 10px;
+box-shadow: 8px 8px #404040;
+border-style: outset;
+border-color: coral;
+}
+
+/*THE DESCRIPTION OF HIRAGANA*/
+div.desc{
+font-size: 18px;
+padding-left: 10px;
+text-align: center;
+}
+
+////////////////////*QUIZ*///////////////////////
+#quiz{
+	border-style:groove;
+	border-color:#2929a3;
+}
+
+#container{
+	display: flex;
+	margin : 5px auto;
+    background-color: white;
+    height: 300px;
+    width : auto;
+	border-style: groove;
+	border-color: #2929a3;
+    border-radius: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+    position: relative;
+}
+
+/*STYLES THE BUTTON*/
+section.quizSection{
+	
+	border-style: solid;
+	border-color: #ff6600;
+	border-width: 15px;
+}
+
+.centered{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#question{
+	font-family: 'Allan';
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 200px;
+    height : 200px;
+    border-top-left-radius: 5px;
+}
+
+#choices{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+}
+
+.choice{
+    display: inline-block;
+    width : 80px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+	margin-top: 5px;
+	margin-left: 80px;
+}
+
+#romajis{
+	width : 480px;
+    position: absolute;
+    right : 0;
+    top : 30px;
+    padding : 10px
+}
+
+.romaji {
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+	margin-top: 5px;
+	margin-left: 80px;
+}
+.romaji img{
+	height: 80px;
+	width: 80px;
+}
+
+.romajiQ {
+	font-family: 'Allan';
+	font-size: 40px;
+	margin-left: 28px;
+}
+
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+	position: absolute;
+    height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+section#colA{
+	display: inline-block;
+	position: absolute;
+}
+
+section#colI{
+	display: inline-block;
+	position: absolute;
+}
+
+section#colU{
+	display: inline-block;
+	position: absolute;
+}
+
+section#colE{
+	display: inline-block;
+	position: absolute;
+}
+
+section#colO{
+	display: inline-block;
+	position: absolute;
+}
+
+.trainingChoice{
+	display: inline-block;
+	height: 100px;
+    width : 100px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+	margin: 10px;
+	margin-left: 25px;
+	display: table-cell;
+    vertical-align: middle;
+	border-style: groove;
+	border-color: blue;
+}
+
+.trainingChoice:hover{
+	border: 3px  solid #ff6600;
+}
+
+.quizHeader{
+	font-family: 'Allan';
+	font-size: 30px;
+	margin-left: 8px;
+}
+
+.result{
+	font-family: 'Allan';
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+	margin-top:5%;
+}
